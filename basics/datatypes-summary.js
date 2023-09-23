@@ -28,7 +28,27 @@ const myFunction = function(){
 }
 
 
+// ********************************************
+
+//stack(primitive) , heap(non-primitive)
+
+let myEmail="sarita@google.com"
+let anotherEmail= myEmail
+anotherEmail="sm253256@google.com"
+console.log(myEmail);
+console.log(anotherEmail);
 
 
+// heap
+ let user1={
+    email:"user1@gmail.com",
+    upi:"user@ybl"
+ }
+ let user2=user1
+
+ user2.email="sarita122@google.com"
+
+ console.log(user1.email);
+ console.log(user2.email);
 
 
