@@ -19,6 +19,8 @@ console.log(Math);
 console.log(Math.round(5.1));
 console.log(Math.ceil(4.0));
 console.log(Math.floor(5.5));
+console.log("hello world");
+
 
 
 
