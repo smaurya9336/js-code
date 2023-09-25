@@ -16,7 +16,9 @@ const hundreds=1000000
 
 // **************** Maths *********************
 console.log(Math);
-console.log(Math.round(5.9));
+console.log(Math.round(5.1));
+console.log(Math.ceil(4.0));
+console.log(Math.floor(5.5));
 
 
 
