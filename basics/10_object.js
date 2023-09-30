@@ -11,14 +11,7 @@ const jsUser={
     year:3,
     collegeNmae:"GITM LUCKNOW"
 
-
-
-
 }
-
-
-
-
 
 console.log(jsUser.name);
 console.log(jsUser["email"]);
