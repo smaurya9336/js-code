@@ -34,8 +34,36 @@ const source={3:"c",4:"d"}
 //const obj1=Object.assign({},target,source)
 const obj1={...target, ...source}
 
-console.log(obj1);
+//console.log(obj1);
 
 
+
+
+
+
+
+const user=[
+    {
+    id:1,
+    email:"sarita@gmail.com"
+},
+
+{
+    id:1,
+    email:"sarita@gmail.com"
+},
+{
+    id:1,
+    email:"sarita@gmail.com"
+}
+]
+
+user[1].email
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+console.log(tinderUser.hasOwnProperty('islogged'));
 
 
