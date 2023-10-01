@@ -28,6 +28,13 @@ tinderUser.name="janny"
 tinderUser.isloggedIn=false
 console.log(tinderUser);
 
+const target={1:"a",2:"b"}
+const source={3:"c",4:"d"}
+
+//const obj1=Object.assign({},target,source)
+const obj1={...target, ...source}
+
+console.log(obj1);
 
 
 
