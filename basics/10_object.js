@@ -88,7 +88,16 @@ console.log(instructor);
 //     "coursename":"Python",
 // }
 
+function loginUserMessage(username){
+    if(username===undefined){
+        console.log("please enter a username");
+        return
 
+    }
+    return `${username} just logged in`
+}
+//console.log(loginUserMessage("Sarita maurya"))
+console.log(loginUserMessage());
 
 
 
