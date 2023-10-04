@@ -40,13 +40,15 @@ if(true){
     }
     //console.log(website);
 }
-console.log(username);
+//console.log(username);
 
 
-//**************    ***************
-
-
-
+//**************  function hoisting  ***************
+console.log(addone(5))
+function addone(num){
+    num=num+1
+    return num
+}
 
 
 
