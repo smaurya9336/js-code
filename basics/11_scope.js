@@ -36,7 +36,7 @@ if(true){
     const username="sarita"
     if(username==="sarita"){
         const website=" google.com"
-        console.log(username + website);
+        //console.log(username + website);
     }
     //console.log(website);
 }
@@ -44,11 +44,36 @@ if(true){
 
 
 //**************  function hoisting  ***************
-console.log(addone(5))
+//console.log(addone(5))
 function addone(num){
     num=num+1
     return num
 }
+
+// function tea(){
+//     let username="Sarita Maurya"
+//     console.log(this);
+// }
+// tea()
+
+
+// const tea=function(){
+//     let username="sarita"
+//     console.log(this.username);
+// }
+// tea()
+
+
+const tea=()=>{
+    let username="sarita"
+    console.log(this);
+}
+tea()
+
+
+
+
+
 
 
 
