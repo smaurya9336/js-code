@@ -64,11 +64,32 @@ function addone(num){
 // tea()
 
 
-const tea=()=>{
-    let username="sarita"
-    console.log(this);
-}
-tea()
+// const tea=()=>{
+//     let username="sarita"
+//     console.log(this);
+// }
+// tea()
+
+// const addTwo=(num1,num2)=>{
+//     return num1+num2
+// }
+// console.log(addoTwo(3,7));
+
+
+//const addTwo=(num1,num2)=> num1+num2
+//const addTwo=(num1,num2)=> (num1+num2)
+const addTwo=(num1,num2)=>({username:"sarita"})
+console.log(addTwo(3,8));
+
+
+
+
+
+
+
+
+
+
 
 
 
